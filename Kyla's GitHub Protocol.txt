@@ -1,0 +1,32 @@
+Steps to commit to GitHub
+
+
+1.) Initialize a git repository
+git init
+
+2.) Stage files to prepare to commit them
+git add <filename>
+
+3.) Commit staged files for repository
+git commit -m "Commit message"
+
+4.) Run status to see what is staged
+git status
+
+5.)  Connect local repository to remote repository
+git remote add origin <url>
+
+6.) Change branch of focus to remote
+git branch -m main
+
+7.) Send new commits to remote repository
+git push -u origin main
+
+8.) Re-send commits to remote repository
+git push
+
+9.) Force send local files to remote repository (Files in remote may be wiped)
+git push -f
+
+10.) Send remote commit to local repository
+git pull -u origin main
