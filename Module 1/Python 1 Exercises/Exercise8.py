@@ -1,4 +1,5 @@
-#Excercise 8
+#Exercise 8
+
 def isUnique(arg1, arg2):
     print("Checking uniqueness of number...")
     
@@ -31,12 +32,6 @@ for i in numbers:
     if isUnique(i, numbers) == True:
         numbersU.append(i)
 
-print("List: [", end="")
-for i in range(len(numbersU)):
-    if i == len(numbersU)-1:
-        print(str(numbersU[i]), end="")
-    else:
-        print(str(numbersU[i]), end=", ")
-print("]")
+print("Numbers: ", numbers)
 
-
+print("Unique Numbers: ", numbersU)

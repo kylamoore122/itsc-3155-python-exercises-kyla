@@ -1,4 +1,5 @@
-#Excercise 4
+#Exercise 4
+
 number = 0
 number = int(input("Enter a number: "))
 num = 0
@@ -11,13 +12,7 @@ for i in range(number):
     nums.append(num)
     total += num
 
-print("List: [", end="")
-for i in range(number):
-    if i == number-1:
-        print(str(nums[i]), end="")
-    else:
-        print(str(nums[i]), end=", ")
-print("]")
+print("Numbers: ", nums)
 
 average = total / number
 

@@ -1,4 +1,5 @@
-#Excercise 1
+#Exercise 1
+
 grade = ""
 grade = input("Enter a grade from 0 to 100: ")
 

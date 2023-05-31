@@ -1,4 +1,5 @@
-#Excercise 6
+#Exercise 6
+
 row = 0
 col = 0
 count = 0
@@ -6,7 +7,7 @@ count = 0
 row = int(input("Enter a row num from 1 to 5: "))
 col = int(input("Enter a col num from 1 to 5: "))
 
-print("List: [", end="")
+print("", end="")
 for i in range(1, 6):
     #print("R" + str(i))
     for ii in range(1, 6):
@@ -34,5 +35,5 @@ for i in range(1, 6):
     if count == 5:
         print("", end="\n")
         count = 0
-print("]")
+print("")
 

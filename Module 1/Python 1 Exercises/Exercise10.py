@@ -1,4 +1,5 @@
-#Excercise 10
+#Exercise 10
+
 word = ""
 characters = []
 charChunk = []
@@ -10,13 +11,7 @@ word = input("Enter a string: ")
 for ch in word:
     characters.append(ch)
 
-print("Characters: [", end="")
-for i in range(len(characters)):
-    if i == len(characters)-1:
-        print(str(characters[i]), end="")
-    else:
-        print(str(characters[i]), end=", ")
-print("]")
+print("Characters: ", characters)
 
 for ch in characters:
     print("Looking at " + ch + "...")

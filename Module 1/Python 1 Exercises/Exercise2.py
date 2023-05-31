@@ -1,11 +1,13 @@
-#Excercise 2
-#Needs string manipulation
+#Exercise 2
+
 stringA = ""
 stringB = ""
 stringA = input("Enter a string: ") 
 stringB = input("Enter another string: ")
 
-if(stringA < stringB):
+if(stringA.endswith(stringB)):
+    print(True)
+elif(stringB.endswith(stringA)):
     print(True)
 else:
     print(False)
